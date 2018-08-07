@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^rxindia550.com
+RewriteRule (.*) http://www.rxindia550.com/$1 [R=301,L]
